@@ -446,9 +446,7 @@
       </block>
     </statement>
   </block>
-</xml>import random
-
-class EvenOddTradingBot:
+</xml>import random<xml>class EvenOddTradingBot:
     def __init__(self, initial_investment, trade_size):
         self.initial_investment = initial_investment
         self.trade_size = trade_size
@@ -493,4 +491,4 @@ bot = EvenOddTradingBot(initial_investment, trade_size)
 for i in range(10):
     print(f"Round {i+1}:")
     bot.place_trades()
-    bot.monitor_trades()
+    bot.monitor_trades()<xml>
